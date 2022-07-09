@@ -7,6 +7,7 @@ const ExpressError = require('./expressError')
 const cRoutes = require('./routes/companies')
 const iRoutes = require('./routes/invoices')
 
+
 app.use(express.json())
 app.use('/companies', cRoutes)
 app.use('/invoices', iRoutes)
